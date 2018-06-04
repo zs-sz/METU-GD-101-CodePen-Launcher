@@ -1,4 +1,6 @@
 function setup () {
+  var density = displayDensity();
+  pixelDensity(density);
   createCanvas(windowWidth, windowHeight);
   background(51);
 }

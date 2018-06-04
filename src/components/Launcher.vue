@@ -1,6 +1,6 @@
 <template>
   <div class="launcher">
-    <h2 class="launcher-title">GD 101 - Codepen Launcher</h2>
+    <h2 class="launcher-title">P5.js Codepen Launcher</h2>
     <div class="presets">
       <preset
         :preset-config="defaultPresetSettings"
@@ -10,7 +10,7 @@
       <preset
         :preset-config="fluidPresetSettings"
         preset-title="Basic Fluid"
-        preset-description="same as basic but the canvas fills the whole viewport"
+        preset-description="Fluid canvas and proper device pixel density (mobile or high ppi display)"
       ></preset>
     </div>
   </div>

@@ -1,7 +1,7 @@
 {
   "name": "cp-launcher",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "Basic codepen template generator for p5.js",
   "author": "Sziklai Balazs",
   "private": true,
   "scripts": {
