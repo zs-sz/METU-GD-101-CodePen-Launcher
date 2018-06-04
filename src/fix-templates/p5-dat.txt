@@ -1,0 +1,29 @@
+// global object for dat.gui
+settings = {
+  value: 100
+};
+
+function setup () {
+  var density = displayDensity();
+  pixelDensity(density);
+  createCanvas(windowWidth, windowHeight);
+  // build DAT.gui ui
+  initGui();
+  background(51);
+}
+
+function draw () {
+  background(51);
+  translate(width / 2, height / 2);
+  fill("#ee4433");
+  ellipse(0,0,settings.value, settings.value);
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
+function initGui () {
+  var gui = new dat.GUI();
+  gui.add(settings, 'value', 40, 200, 1);
+}
